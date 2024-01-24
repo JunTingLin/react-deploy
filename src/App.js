@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import profileImage from './img/生活照.jpg'
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <body>
+        <img src={profileImage} alt="profile-image" />
+      </body>
     </div>
   );
 }
